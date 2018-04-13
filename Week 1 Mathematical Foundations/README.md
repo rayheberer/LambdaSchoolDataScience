@@ -14,7 +14,7 @@
 * invert a matrix and describe what this does
 * transpose a matrix
 
-### Animations
+## Animations
 The following notebooks contain JavaScript animation widgets that can be viewed when using `nbviewer`:
 * Operationalizing Finite Differences
 * Linear Algebra with Homogeneous Coordinates
