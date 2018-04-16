@@ -10,4 +10,4 @@
 * graph the top two principal components of a high dimensional data set using PCA
 * compute the eigenvalues and eigenvectors of a nonsingular matrix
 * add kI to a singular matrix to make it nonsingular
-* write a singular value decomposition of 1000 points in $R^15$ in python
+* write a singular value decomposition of 1000 points in R^15 in python
