@@ -27,3 +27,7 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 ### Data and Visualization
 * Data Preparation: An Overview
 * Data Visualization
+
+### High Dimensionality
+* High Dimensionality
+* Dimensionality Reduction
