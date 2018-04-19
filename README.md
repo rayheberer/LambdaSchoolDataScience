@@ -8,7 +8,7 @@ The majority of the work is done using IPython notebooks run in Google's [Colabo
 
 ## Organization
 
-Lambda School's instruction is divided into 5-day sprints. Each sprint has an overall topic, and will contain one or more "modules" - more specific subtopics. For the first four days, there are short code challenges meant to introduce the material, as well as more in-depth assignments. Each sprint is capped off with a comprehensive challenge that covers the breadth of the material, but not in as much depth as the weekly assignments.
+Lambda School's instruction is divided into 5-day sprints. Each sprint has an overall topic, and will contain one or more "modules" - more specific subtopics. For the first four days, there are short code challenges meant to introduce the material, as well as more in-depth assignments. Each sprint is capped off with a comprehensive challenge that covers the breadth of the material, but not in as much depth as the weekly assignments. The material of the Sprint Challenge corresponds directly to the "learning objectives" of each module.
 
 I have collected the weekly Sprint Challenges into their own subdirectory. The code challenges and assignments for a particular week can be found in the directory for that week.
 
