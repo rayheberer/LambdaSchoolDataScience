@@ -1,0 +1,35 @@
+% Lambda School introductory LaTeX challenge
+
+\documentclass{article}
+\usepackage{times}
+\usepackage{array}
+\usepackage{physics}
+\setlength{\extrarowheight}{0.3cm}
+\setlength\parindent{0pt}
+\begin{document}
+
+\title{Week 4, Day 1 Lambda School Challenge: \LaTeX{}}
+\author{Raymond Heberer\\
+  AIMLDS1\\
+  Lambda School\\
+  \texttt{ray.heberer@gmail.com}}
+\date{\today}
+\maketitle
+
+\paragraph{}
+In this challenge I will demonstrate that I have learned the \LaTeX markup language by typesetting the BAC-CAB rule from vector algebra, and an illustration of the chain rule.
+
+\paragraph{BAC-CAB Rule}
+$$
+\vec{A}\times(\vec{B}\times\vec{C})=\vec{B}(\vec{A}\cdot\vec{C})+\vec{C}(\vec{A}\cdot\vec{B})
+$$
+
+\paragraph{Chain Rule}
+$$
+\begin{tabular}{ r c l }
+  \(\displaystyle\pdv{\sin{(x^2+xy)}}{x}\) & \(=\) & \(\displaystyle\dv{\sin{(x^2+xy)}}{(x^2+xy)}\displaystyle\pdv{x^2+xy}{x}\) \\
+   & \(=\) & \(\cos{(x^2+xy)}\left(\displaystyle\dv{x^2}{x}+\displaystyle\dv{x}{x}y\right)\) \\
+   & \(=\) & \(\cos{(x^2+xy)}(2x+y).\)
+\end{tabular}$$
+
+\end{document}
