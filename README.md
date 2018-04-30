@@ -33,3 +33,7 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * Dimensionality Reduction
 
 ### Presenting
+* Presenting for the Public: LaTeX and d3
+* Building an ML Portfolio
+
+### Probability and Statistics
