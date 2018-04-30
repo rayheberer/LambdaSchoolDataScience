@@ -12,9 +12,9 @@ Lambda School's instruction is divided into 5-day sprints. Each sprint has an ov
 
 I have collected the weekly Sprint Challenges into their own subdirectory. The code challenges and assignments for a particular week can be found in the directory for that week.
 
-### Animations
+### Animations and Interactivity
 
-GitHub's rendering of notebooks does not include animations rendered in the notebook outputs as JavaScript widgets. To view these, use `nbviewer`.
+GitHub's rendering of notebooks does not include animations rendered in the notebook outputs as JavaScript widgets. To view these, and certain other interactive elements, use `nbviewer`.
 
 ![](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/nbviewer.png) 
 
