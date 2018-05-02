@@ -1,0 +1,191 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size, margins, and layout properties
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\setlength{\parskip}{\baselineskip}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{physics}
+\usepackage{array}
+
+%% Math Operations
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\title{Math Basics Worth Thinking Deeply About}
+\author{Raymond Heberer\\
+  \texttt{ray.heberer@gmail.com}}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+\paragraph{} Ideas from mathematics underly virtually every technique and concept in Machine Learning (ML). While possessing a rigorous understanding of all these ideas is certainly not required, it can be beneficial. For the beginning practitioner, the scope of the math that forms the foundation of ML is intimidating, and many choose to reassure themselves by observing that modern programming frameworks mean that the ability to implement an algorithm is far removed from the ability to understand its mathematical underpinnings. 
+
+This "top-down" approach, emphasizing results over theory, is both effective and marketable. However, there are certain mathematical foundations of ML that are worth becoming familiar with.
+
+In what follows, I state some of the most important equations a beginner should seek to understand when approaching ML. I then attempt to offer commentary on each that provokes some thought. While the choice of topics was motivated by which ideas a fundamental to ideas in ML, they are not unique to it, and can be understood independently, without motivation to study ML. 
+
+The two main topics from which these fundamentals are taken are \textbf{Function and Derivatives} and \textbf{Vectors and Matrices}. In addition, a couple selected statistical techniques are explored. These will require an some understanding of linear algebra and probability in order to benefit fully from the analysis of them.
+
+I hope to show two things by the end of this. First, that some ideas that seem very basic are worth revisiting even if they appear familiar or trivial. Second, that focusing in on selected topics or techniques that appear challenging can be a valuable exercise, even if there is not enough time for a practitioner to analyze every tool in their arsenal with such depth.
+
+\section{Functions and Derivatives}
+
+\subsection{Variables and Function Notation}
+
+$$ y = f(x) $$
+
+The result of some secondary school math training is that the above statement appears unremarkable, uninformative, or confusing. One might recall a moment of confusion in that pre-calculus course where the vertical axes of all the graphs in assignments went from being labeled as $y$ to $f(x)$ (or perhaps the other way around) without the instructor acknowledging the change, and the students feeling too naive to ask "so... are they just the same thing?"
+
+In my view, $y=f(x)$ should be viewed with a certain amount of respect for how much information can be condensed into modern notation. On one level, it is just saying "we have some variable named $x$, and a function of that variable, $f$, and the output of that function can be assigned to another variable, which we will name $y$." But think of just what an algebraic variable is. Think of what a function is, and how it can be characterized by things such as its domain and range.
+
+Could the output of that function of $x$ have been given a different name, say, $z$? Certainly. Could we for the sake of economy not dedicate a new variable to the output, and always refer to it as $f(x)$? Of course.
+
+It's with simple, almost redundant mathematical statements such as $y=f(x)$ that the amount of information contained in a few strokes of ink becomes clear, as does the interface between ideas, the conventions set to facilitate their communication and manipulation, and the history of those conventions. Do not scoff at them unless you can explain the essence of their contents to a child.
+
+\subsection{Equation of a Line}
+
+$$ y = mx + b $$
+
+We've seen how $y=f(x)$ could be motivation to pause and consider, among other things, the nature of algebraic variables and how their values can sometimes be intertwined in ways exactly captured by this idea of functions. The familiar, generic equation of a line then is an opportunity to consider how functions themselves are characterized and grouped.
+
+In other words, if before we were pondering the $x$ and the $y$, now is a time to look more closely at the $m$ and the $b$. What roles do they play? How do they show up in different forms and families of functions? What even is meant by "families" of functions?
+
+Looking at a line, one can characterize it completely by noting how it's tilted (slope), and identifying one point it passes through (the y-intercept lends itself to conveniently to form a simple equation). Though the two variables that are related linearly range across the real numbers, these two defining features are fixed for a single line.
+
+Yet there is the sense that these defining features could have taken on different values, and indeed they can. What will result from this will be more lines. Different lines for different values for the two characteristics, but all lines, no squiggly curves. So $m$ and $b$ are in a sense parameters that, when assigned, completely designate one instance of a line, and in their generality and potential to take on any out of some set of numbers, define a "family" of functions.
+
+Now, this understandably seems like I'm making much ado about nothing, but I think the idea becomes powerful when one thinks about how functions are built. There are only really three ingredients: numbers, variables, and other functions. There are also just three ways of combining them: adding them together, multiplying them, or given two or more functions, composing them (taking one function of another function). 
+
+Objects like $x$ and $y$ are one ingredient - the variables - and now we can see that $m$ and $b$ are another ingredient - the numbers. The notion of a "family" of functions can then be thought of as the collection of functions that can be made given some amount of variables in a particular arrangement, allowing the numbers these variables are added and multiplied by to vary arbitrarily.
+
+\subsection{The Power Rule}
+
+$$ \dv{}{x}\left(x^n\right)  = nx^{n-1} $$
+
+\subsection{Finite Differences and Difference Quotients}
+
+$$ \Delta f(x) = f\left(x+\Delta x\right) - f(x) $$
+
+$$ \frac{\Delta f(x)}{\Delta x} = \frac{f\left(x+\Delta x\right) - f(x)}{\Delta x} $$
+
+$$ \nabla f(x) = f(x) - f\left(x - \Delta x\right) $$
+
+$$ \delta f(x) = f\left(x+\frac{1}{2}\Delta x\right) - f\left(x - \frac{1}{2}\Delta x\right) $$
+
+\section{Vectors and Matrices}
+
+$$ \vec{a}, \vec{b} \in \mathbb{R}^n $$
+
+\subsection{Vector Arithmetic}
+
+$$ \vec{a} + \vec{b} = (a_1+b_1, a_2+b_2, \ldots, a_n+b_n) $$
+
+$$ \lambda\vec{a} = (\lambda a_1, \lambda a_2,\ldots, \lambda a_n) $$
+
+\subsection{Vector Magnitude}
+
+$$ |\vec{a}| = \sum_{i=1}^{n}\sqrt{a_i^2} = \sqrt{a_1 + a_2 + \ldots + a_n} $$
+
+\subsection{L1 and L2 Norms}
+
+$$ ||\vec{a}||_1 = \sum_{i=1}^{n} |a_i| $$
+
+$$ ||\vec{a}||_1 = \sum_{i=1}^{n} \sqrt{a_i^2} $$
+
+\subsection{Matrix Multiplication}
+
+$$ \mathbf{A} \in \mathbb{R}^{m \times n}, \mathbf{B} \in \mathbb{R}^{n \times p} $$
+
+$$ \mathbf{A} = 
+\begin{pmatrix}
+a_{11} & a_{12} & \ldots & a_{1n} \\
+a_{21} & a_{22} & \ldots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \ldots & a_{mn}
+\end{pmatrix}
+$$
+
+$$ \mathbf{AB} \in \mathbb{R}^{m \times p} $$
+
+$$ \mathbf{C} = \mathbf{AB} = 
+\begin{pmatrix}
+c_{11} & c_{12} & \ldots & c_{1p} \\
+c_{21} & c_{22} & \ldots & c_{2p} \\
+\vdots & \vdots & \ddots & \vdots \\
+c_{m1} & c_{m2} & \ldots & c_{mp}
+\end{pmatrix}
+$$
+
+$$ c_{ij} = a_{i1}b_{1j} + a_{i2}b_{2j} + \ldots + a_{im}b_{mj} = \sum_{k=1}^{m}a_{ik}b_{kj} $$
+
+\subsection{Matrix Inversion}
+
+$$ \mathbf{A} \in \mathbb{R}^{n \times n} $$
+
+$$ \mathbf{A}^{-1}\mathbf{A} = \mathbf{AA}^{-1} = \mathbf{I}_n $$
+
+$$ \mathbf{A}^{-1} \in \mathbb{R}^{n \times n} $$
+
+$$ \mathbf{I} = 
+\begin{pmatrix}
+1 & 0 & \ldots & 0 \\
+0 & 1 & \ldots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \ldots & 1
+\end{pmatrix}
+$$
+
+\section{Statistical Relationships and Procedures}
+
+\subsection{Correlation}
+
+$$ \rho_{\mathbf{X}, \mathbf{Y}} = \frac{\mathbf{cov}(\mathbf{X}, \mathbf{Y})}{\sigma_{\mathbf{X}}\sigma_{\mathbf{Y}}} $$
+
+$$ = \frac{E[(\mathbf{X}-\mu_{\mathbf{X}})(\mathbf{Y}-\mu_{\mathbf{Y}})]}{\sigma_{\mathbf{X}}\sigma_{\mathbf{Y}}} $$
+
+$$ r_{xy} = \frac{\sum_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y})}
+{\sqrt{
+\sum_{i=1}^{n}(x_i-\bar{x})^2
+\sum_{i=1}^{n}(y_i-\bar{y})^2
+}} $$
+
+$$ \bar{x} = \frac{1}{n}\sum_{i=1}^{n}x_i $$
+
+\subsection{Principal Components Analysis}
+
+$$ \mathbf{w_{(1)}} = \argmax_{||\mathbf{w}||=1}\left\{ ||\mathbf{Xw}||^2 \right\} = \argmax_{||\mathbf{w}||=1}\left\{ ||\mathbf{w}^T\mathbf{X}^T\mathbf{Xw}||^2 \right\}$$
+
+$$ \mathbf{w_{(1)}}=\argmax\left\{\frac{||\mathbf{w}^T\mathbf{X}^T\mathbf{Xw}||^2}{\mathbf{w}^T\mathbf{w}}\right\}$$
+
+$$ \mathbf{W}_k = \argmax_{||\mathbf{w}||=1}\left\{ ||\mathbf{\hat{X}}_k\mathbf{w}||^2 \right\} $$
+
+$$ \mathbf{\hat{X}}_k = \mathbf{X}-\sum_{s=1}^{k-1}\mathbf{Xw}_{(s)}\mathbf{w}_{(s)}^T $$
+
+\subsubsection{Singular-Value Decomposition (SVD)}
+
+$$ \mathbf{M} \in \mathbb{R}^{m \times n}$$
+
+$$ \mathbf{M} = \mathbf{U\Sigma V}^* $$
+
+\begin{itemize}
+  \item The nonzero singular values are the square roots of the nonzero eigenvalues of $\mathbf{M}^*\mathbf{M}$ or $\mathbf{MM}^*$
+  \item $\mathbf{\Sigma}$ is a diagonal $(m \times n)$ matrix of non-negative real numbers, known as the \textbf{singular values} of $\mathbf{M}$
+  \item The columns of $\mathbf{V}$ (right singular vectors) are eigenvectors of $\mathbf{M}^*\mathbf{M}$
+  \item The columns of $\mathbf{U}$ (left singular vectors) are eigenvectors of $\mathbf{MM}^*$
+\end{itemize}
+
+\end{document}
+
