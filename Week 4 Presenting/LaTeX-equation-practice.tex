@@ -67,13 +67,28 @@ Looking at a line, one can characterize it completely by noting how it's tilted 
 
 Yet there is the sense that these defining features could have taken on different values, and indeed they can. What will result from this will be more lines. Different lines for different values for the two characteristics, but all lines, no squiggly curves. So $m$ and $b$ are in a sense parameters that, when assigned, completely designate one instance of a line, and in their generality and potential to take on any out of some set of numbers, define a "family" of functions.
 
-Now, this understandably seems like I'm making much ado about nothing, but I think the idea becomes powerful when one thinks about how functions are built. There are only really three ingredients: numbers, variables, and other functions. There are also just three ways of combining them: adding them together, multiplying them, or given two or more functions, composing them (taking one function of another function). 
+Now, this understandably seems like I'm making much ado about nothing, but I think the idea becomes powerful when one thinks about how functions are built. There are only really three ingredients: numbers, variables, and other functions. There are also just three ways of combining them: adding them together, multiplying them or, given two or more functions, composing them (taking one function of another function). 
 
-Objects like $x$ and $y$ are one ingredient - the variables - and now we can see that $m$ and $b$ are another ingredient - the numbers. The notion of a "family" of functions can then be thought of as the collection of functions that can be made given some amount of variables in a particular arrangement, allowing the numbers these variables are added and multiplied by to vary arbitrarily.
+Objects like $x$ and $y$ are one ingredient - the variables - and now we can see that $m$ and $b$ are another ingredient - the numbers. The notion of a "family" of functions can then be thought of as the collection of functions that can be made given some amount of variables in a particular arrangement, allowing the numbers these variables are added to and multiplied by to vary arbitrarily.
 
 \subsection{The Power Rule}
 
 $$ \dv{}{x}\left(x^n\right)  = nx^{n-1} $$
+
+Consider the function $f(x)=x^2$. One way to visualize this is to think of $f$ as the area of a square as a function of its side-length $x$. Now consider: can we define a new function that represents the change in $f$ when $x$ is increased by a small, yet nonzero, amount $dx$. This will also be a function of $x$; let's call it $df$. The precise value of $dx$ doesn't matter, but it is fixed; think of it like a parameter, like $b$ in the equation for a line.
+
+This new function will now be given by $df(x) = f(x+dx)-f(x) = (x+dx)^2$. Expanding, we get:
+$$ df = (x^2 + 2xdx + dx^2)-x^2 = 2xdx + dx^2 $$
+
+Thinking back to our square, $dx$ is then a little piece of additional length added to both the width and height. That makes $df$ the total additional area added to the square. This area consists of two long, thin components - a vertical strip and a horizontal strip, with width and height $dx$ respectively - as well as a small square in the corner with side length $dx$. You can see how these correspond to the elements of our equation.
+
+Now consider another, related function of $x$ of the form $\dv{f}{x} (x)$. We'll call it a finite difference quotient. It is like the difference function considered above, except this difference is scaled by $dx$. It denotes the slope of a line that passes through $f(x)$ and $f(x+dx)$. For $f(x)=x^2$, it equals $2x + dx$.
+
+The magic of calculus happens when we consider the consequences of letting $dx$ get infinitely close to zero. When this happens, $\dv{f}{x}=2x$ becomes a better and better approximation of the slope of a tangent line to $f(x)$ at the point $x$. Since we can bring $dx$ arbitrarily close to zero, our approximation can become arbitrarily accurate. That is to say, exact.
+
+The power rule comes about because for functions of higher powers of $x$, $f(x+dx)-f(x)$ will equal $x^n + nx^{n-1}dx + \ldots + dx^n - x^n$ for finite $dx$, where the intermediate terms all contain $dx^2$ or some higher order $dx$ term. The finite difference quotient will then leave $nx^{n-1}$ as the only $dx$ free term, making it the only one to survive when we let $dx$ approach zero.
+
+To think deeply about the power rule is to respect that approximations that can be brought infinitely close to complete accuracy reveal the exact form of relationships, like that of functions to their "rates of change." It is to recognize that in its widely used form, while the notation $\dv{f}{x}$ no longer represents a fraction, it does hint at one path of logical thought involving fractions, and eventually limits, that can be used to recover its meaning.
 
 \subsection{Finite Differences and Difference Quotients}
 
