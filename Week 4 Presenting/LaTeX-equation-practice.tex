@@ -22,7 +22,7 @@
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
 
-\title{Math Basics Worth Thinking Deeply About}
+\title{Simple Equations Worth Thinking About Again}
 \author{Raymond Heberer\\
   \texttt{ray.heberer@gmail.com}}
 
@@ -37,9 +37,9 @@ This "top-down" approach, emphasizing results over theory, is both effective and
 
 In what follows, I state some of the most important equations a beginner should seek to understand when approaching ML. I then attempt to offer commentary on each that provokes some thought. While the choice of topics was motivated by which ideas a fundamental to ideas in ML, they are not unique to it, and can be understood independently, without motivation to study ML. 
 
-The two main topics from which these fundamentals are taken are \textbf{Function and Derivatives} and \textbf{Vectors and Matrices}. In addition, a couple selected statistical techniques are explored. These will require an some understanding of linear algebra and probability in order to benefit fully from the analysis of them.
+The two main groups of objects from which these fundamentals are taken will involve \textbf{Function and Derivatives} and \textbf{Vectors and Matrices}. In addition, I will select and explore a couple statistical techniques. For these, some understanding of linear algebra and probability will be needed in order to benefit fully from their analysis.
 
-I hope to show two things by the end of this. First, that some ideas that seem very basic are worth revisiting even if they appear familiar or trivial. Second, that focusing in on selected topics or techniques that appear challenging can be a valuable exercise, even if there is not enough time for a practitioner to analyze every tool in their arsenal with such depth.
+I hope to show two things by the end of this series. First, that some ideas that seem very basic are worth revisiting even if they appear familiar or trivial. Second, that focusing in on selected topics or techniques that appear challenging can be a valuable exercise, even if there is not enough time for a practitioner to analyze every tool in their arsenal with such depth.
 
 \section{Functions and Derivatives}
 
@@ -63,9 +63,9 @@ We've seen how $y=f(x)$ could be motivation to pause and consider, among other t
 
 In other words, if before we were pondering the $x$ and the $y$, now is a time to look more closely at the $m$ and the $b$. What roles do they play? How do they show up in different forms and families of functions? What even is meant by "families" of functions?
 
-Looking at a line, one can characterize it completely by noting how it's tilted (slope), and identifying one point it passes through (the y-intercept lends itself to conveniently to form a simple equation). Though the two variables that are related linearly range across the real numbers, these two defining features are fixed for a single line.
+Looking at a line, one can characterize it completely by noting how it's tilted (slope), and identifying one point it passes through (the y-intercept lends itself to conveniently to form a simple equation). Though the two variables that are related linearly range across the real numbers, the two defining features are fixed for a single line.
 
-Yet there is the sense that these defining features could have taken on different values, and indeed they can. What will result from this will be more lines. Different lines for different values for the two characteristics, but all lines, no squiggly curves. So $m$ and $b$ are in a sense parameters that, when assigned, completely designate one instance of a line, and in their generality and potential to take on any out of some set of numbers, define a "family" of functions.
+Yet there is the sense that these two quantities which characterize lines could have taken on different values, and indeed they can. What will result from this will be more lines. Different lines for different values for the two characteristics, but all lines, no squiggly curves. So $m$ and $b$ are in a sense parameters that, when assigned, completely designate one instance of a line, and in their generality and potential to take on any out of some set of numbers, define a "family" of functions.
 
 Now, this understandably seems like I'm making much ado about nothing, but I think the idea becomes powerful when one thinks about how functions are built. There are only really three ingredients: numbers, variables, and other functions. There are also just three ways of combining them: adding them together, multiplying them or, given two or more functions, composing them (taking one function of another function). 
 
@@ -84,7 +84,7 @@ Thinking back to our square, $dx$ is then a little piece of additional length ad
 
 Now consider another, related function of $x$ of the form $\dv{f}{x} (x)$. We'll call it a finite difference quotient. It is like the difference function considered above, except this difference is scaled by $dx$. It denotes the slope of a line that passes through $f(x)$ and $f(x+dx)$. For $f(x)=x^2$, it equals $2x + dx$.
 
-The magic of calculus happens when we consider the consequences of letting $dx$ get infinitely close to zero. When this happens, $\dv{f}{x}=2x$ becomes a better and better approximation of the slope of a tangent line to $f(x)$ at the point $x$. Since we can bring $dx$ arbitrarily close to zero, our approximation can become arbitrarily accurate. That is to say, exact.
+The magic of calculus happens when we consider the consequences of letting $dx$ get infinitely close to zero. When this happens, $\dv{f}{x}=2x$ becomes a better and better approximation of the slope of a line tangent to $f(x)$ at the point $x$. Since we can bring $dx$ arbitrarily close to zero, our approximation can become arbitrarily accurate. That is to say, exact.
 
 The power rule comes about because for functions of higher powers of $x$, $f(x+dx)-f(x)$ will equal $x^n + nx^{n-1}dx + \ldots + dx^n - x^n$ for finite $dx$, where the intermediate terms all contain $dx^2$ or some higher order $dx$ term. The finite difference quotient will then leave $nx^{n-1}$ as the only $dx$ free term, making it the only one to survive when we let $dx$ approach zero.
 
@@ -96,9 +96,17 @@ $$ \Delta f(x) = f\left(x+\Delta x\right) - f(x) $$
 
 $$ \frac{\Delta f(x)}{\Delta x} = \frac{f\left(x+\Delta x\right) - f(x)}{\Delta x} $$
 
-$$ \nabla f(x) = f(x) - f\left(x - \Delta x\right) $$
+I already have invoked finite differences and different quotients in tracing a path of reasoning motivating the Power Rule in derivative calculus. However, finite differences are useful not just as an intermediate logical step, but as computational results with real, practical value. In practice, analytical expressions for derivatives are rarely used in computing, and when dealing with real-world data, it will be necessarily discontinuous.
 
+So noticing that expressions in mathematics can live these dual lives, existing both in the service of precisely defined, abstract ideas, and as practically useful tools in their own rights is one result of pondering finite differences in and of themselves. Another is considering that there are different kinds of them: forward, backward, and central to name the most conceptually distinct. What we considered so far are forward differences. Here are the other two:
+$$ \nabla f(x) = f(x) - f\left(x - \Delta x\right) $$
 $$ \delta f(x) = f\left(x+\frac{1}{2}\Delta x\right) - f\left(x - \frac{1}{2}\Delta x\right) $$
+
+Can we have others? Of course! Why not go one quarter of a $\Delta x$ forward and three quarters backward? What's interesting is that in the infinitesimal limit, all of these objects will converge to the derivative. To me, this reinforces the point I made above about the nature of approximations which can become arbitrarily accurate, but it suggests something else under the lens of computational practicality. 
+
+It is not always the case that different forms of finite differences will behave identically on all collections of pairs of purportedly related points - that is to say, on all data. In fact, the error of the central finite difference approaches zero faster than either the left or the right, but it may not be applicable to, say, a signal arriving in real-time (since we don't know the future). 
+
+Some mathematics is intended to, and may also actually do stuff in the "real" world. Calling it impure won't make this fact go away. For people like data scientists, you would think this would be reinforced day-to-day, but I find that reminding oneself that some ideas exist as more than abstract entities is still fruitful in small, deliberate doses.
 
 \section{Vectors and Matrices}
 
