@@ -6,6 +6,8 @@ The main focus of this week was in producing and publishing content. As such, in
 
 * [The Feature Scaling Terminology Zoo: Standardization vs. Normalization (Medium)](https://medium.com/@rayheberer/the-feature-scaling-terminology-zoo-standardization-vs-normalization-21411ddfa9f2)
 
+* [Simple Equations Worth Thinking About Again: Functions and Derivatives (Medium)](https://medium.com/@rayheberer/simple-equations-worth-thinking-about-again-1ad6e6a9c026)
+
 ## Learning Objectives
 
 ### Presenting for the Public: LaTeX and d3
