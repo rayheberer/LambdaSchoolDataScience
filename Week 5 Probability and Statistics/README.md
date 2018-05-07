@@ -1,5 +1,15 @@
 # Probability and Statistics
 
+## External Content
+
+In the Sprint Challenge, there was a challenge to apply the analytical tools to a new dataset and publish the findings. To facilitate this, I began working on a small python module to make the workflow more reproducible.
+
+* [Quick Stats](https://github.com/rayheberer/quick_stats)
+
+Articles analyzing datasets using Quick Stats:
+
+* _in development_
+
 ## Learning Objectives
 
 ### Quantitative Data Analysis

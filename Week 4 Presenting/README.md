@@ -1,6 +1,6 @@
 # Presenting
 
-## Content Creation Assignments
+## External Content
 
 The main focus of this week was in producing and publishing content. As such, in place of some code challenges and assignments, there are three online articles that I published, or began producing during this week.
 
