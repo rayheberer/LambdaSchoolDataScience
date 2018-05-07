@@ -2,12 +2,16 @@
 
 ## Learning Objectives
 
-### Statistics Foundations
+### Quantitative Data Analysis
+* Compute summary statistics (e.g. Mean, Median, Standard Deviation, Variance)
+* Construct contingency tables and use them to compute conditional probabilities
 
-### Probability
+### Graphical Data Analysis
+* Visualize distributions through Empirical Cumulative Distribution Functions, Histograms, Box Plots, and Bee Swarm Plots
+* Check for normality by overlaying the ECDF on the CDF of a normal distribution with the same mean and variance as the data
 
-### Sampling, Confidence Intervals, and Hypothesis Testing
-
-### Goodness of Fit
-
-### An Overview of Regression Analysis
+### Statistical Techniques
+* Relate a scatter plot between two variables to their covariance and correlation coefficients
+* Detect relationships amongst categorical, non-linearly related and non-normally distributed variables by computing Spearman's Rank Correlation Coefficient
+* Conduct Pearson's Chi-Squared Test to test the null hypothesis that two variables are independent
+* Approximate probabilities by conducting random trials
