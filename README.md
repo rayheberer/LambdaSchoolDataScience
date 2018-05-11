@@ -37,3 +37,10 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * Building an ML Portfolio
 
 ### Probability and Statistics
+* Quantitative Data Analysis
+* Graphical Data Analysis
+* Statistical Techniques
+
+### Modeling
+* Linear Regression
+* Logistic Regression
