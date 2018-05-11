@@ -6,7 +6,9 @@ The main focus of this week was in producing and publishing content. As such, in
 
 * [The Feature Scaling Terminology Zoo: Standardization vs. Normalization](https://medium.com/@rayheberer/the-feature-scaling-terminology-zoo-standardization-vs-normalization-21411ddfa9f2)
 
-* [Simple Equations Worth Thinking About Again: Functions and Derivatives](https://medium.com/@rayheberer/simple-equations-worth-thinking-about-again-1ad6e6a9c026)
+* [Revisiting the Mathematical Foundations of Data Science: Functions and Derivatives](https://medium.com/@rayheberer/simple-equations-worth-thinking-about-again-1ad6e6a9c026)
+
+* _in development_
 
 ## Learning Objectives
 
