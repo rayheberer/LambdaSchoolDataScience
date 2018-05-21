@@ -18,6 +18,8 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 
 ![](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/nbviewer.png) 
 
+---
+
 ## Syllabus
 
 ### Mathematical Foundations
@@ -44,3 +46,11 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 ### Modeling
 * Linear Regression
 * Logistic Regression
+
+### The Machine Learning Framework
+* Model Tuning
+* Supervised Learning
+
+### Unsupervised Learning
+* Association
+* Clustering
