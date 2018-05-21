@@ -21,7 +21,7 @@ The assignment named "The Machine Learning Framework" was tied to a Kaggle InCla
 * Compute AUC to validate a set of experimental result
 
 ### Supervised Learning
-* Train SVM, Random Forest, Naive Bayers, and other models
+* Train SVM, Random Forest, Naive Bayes, and other models
 * Adjust hyperparameters of supervised learning models
 * Save model parameterization for use during productization
 * Join Kaggle contests and submit results
