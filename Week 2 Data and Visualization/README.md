@@ -3,14 +3,14 @@
 ## Learning Objectives
 
 ### Data Preparation: An Overview
-* select
-* filter
-* treat missing values
-* de-duplicate
-* merge 
-* transform 
+* Select
+* Filter
+* Treat missing values
+* De-duplicate
+* Merge 
+* Transform 
 
 ### Data Visualization
-* draw an oblique topography
-* pairplot to find clusters
-* plot clusters together
+* Draw an oblique topography
+* Pairplot to find clusters
+* Plot clusters together
