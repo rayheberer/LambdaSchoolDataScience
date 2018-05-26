@@ -52,5 +52,6 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * Supervised Learning
 
 ### Unsupervised Learning
-* Association
 * Clustering
+* Association Rule Learning
+* Collaborative Filtering
