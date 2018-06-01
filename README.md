@@ -58,4 +58,3 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 
 ### Neural Networks
 * Neural Networks
-* Backpropagation
