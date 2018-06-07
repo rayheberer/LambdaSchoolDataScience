@@ -3,7 +3,7 @@
 ## External Content
 The goal of the sprint challenge was to produce a blog post about 5 of the learning objectives of the week.
 
-* _in development_
+* https://medium.com/@rayheberer/black-magic-and-hyperparameter-tuning-ef875eb31712
 
 ## Kaggle InClass Competition
 The assignment named "The Machine Learning Framework" was tied to a Kaggle InClass prediction competition. Instead of completing a code challenge on Day 3, students created Kaggle accounts and signed up for the competition.
