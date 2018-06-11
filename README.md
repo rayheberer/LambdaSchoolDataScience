@@ -62,3 +62,9 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 ### Computer Vision
 * Computer Vision
 * Deep CNNs
+
+### Natural Language Processing
+* The Structure of Text
+* Comparing Documents or Words
+* Sentiment Analysis
+* Accessing and Building Corpuses
