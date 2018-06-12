@@ -6,10 +6,6 @@ In the Sprint Challenge, there was a challenge to apply the analytical tools to 
 
 * [Quick Stats](https://github.com/rayheberer/quick_stats)
 
-Articles analyzing datasets using Quick Stats:
-
-* _in development_
-
 ## Learning Objectives
 
 ### Quantitative Data Analysis
