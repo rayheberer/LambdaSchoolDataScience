@@ -64,7 +64,7 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * Deep CNNs
 
 ### Natural Language Processing
-* The Structure of Text
+* Natural Language Processing - Introduction
 * Comparing Documents or Words
 * Sentiment Analysis
 * Accessing and Building Corpuses
