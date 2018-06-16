@@ -8,7 +8,7 @@ The main focus of this week was in producing and publishing content. As such, in
 
 * [Revisiting the Mathematical Foundations of Data Science: Functions and Derivatives](https://medium.com/@rayheberer/simple-equations-worth-thinking-about-again-1ad6e6a9c026)
 
-* _in development_
+* [Generating Matplotlib Subplots Programmatically: A Python Code Snippet](https://medium.com/@rayheberer/generating-matplotlib-subplots-programmatically-cc234629b648)
 
 ## Learning Objectives
 
