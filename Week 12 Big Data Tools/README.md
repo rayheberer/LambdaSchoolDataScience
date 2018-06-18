@@ -1,19 +1,22 @@
 # Big Data Tools
 
 ## Local Machine Requirements
-* [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-`% java -version`
+* [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 8
+`java -version`
 ```
-java 10.0.1 2018-04-17
-Java(TM) SE Runtime Environment 18.3 (build 10.0.1+10)
-Java HotSpot(TM) 64-Bit Server VM 18.3 (build 10.0.1+10, mixed mode)
+java version "1.8.0_171"
+Java(TM) SE Runtime Environment (build 1.8.0_171-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
 ```
 
 * [Python](http://docs.python-guide.org/en/latest/starting/installation/)
-`% python -version`
+`python -version`
 ```
 Python 3.6.1
 ```
+* PySpark 2.3.1
+* py4j 0.10.7
+* Jupyter 4.4.0
 
 # [Apache Spark](https://spark.apache.org/downloads.html)
 ![install spark](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/Install_Spark.JPG)
