@@ -6,6 +6,8 @@ My solutions to the assignments and coding challenges from the [Lambda School](h
 
 The majority of the work is done using IPython notebooks run in Google's [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) environment. No dependencies need to be installed on a local machine to save and work with these notebooks in Google Drive.
 
+The week 12 material requires an installation of the Java Development Kit (JDK) 10, Apache Spark 2.3.1, and the PySpark API. More detailed instructions can be found in the week 12 README.
+
 ## Organization
 
 Lambda School's instruction is divided into 5-day sprints. Each sprint has an overall topic, and will contain one or more "modules" - more specific subtopics. For the first four days, there are short code challenges meant to introduce the material, as well as more in-depth assignments. Occasionally, some days will have no code challenge in favor of some other assignment or reading.
@@ -68,3 +70,7 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * Comparing Documents or Words
 * Sentiment Analysis
 * Accessing and Building Corpuses
+
+### Big Data Tools
+* Spark/Hadoop/Hive
+* Map/reduce
