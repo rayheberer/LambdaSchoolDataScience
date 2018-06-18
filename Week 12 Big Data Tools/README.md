@@ -18,7 +18,7 @@ Python 3.6.1
 * py4j 0.10.7
 * Jupyter 4.4.0
 
-# [Apache Spark](https://spark.apache.org/downloads.html)
+* [Apache Spark](https://spark.apache.org/downloads.html)
 ![install spark](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/Install_Spark.JPG)
 
 ## Learning Objectives
