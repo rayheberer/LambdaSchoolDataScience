@@ -1,7 +1,8 @@
 # Big Data Tools
 
 ## Local Machine Requirements
-* [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 8
+* [Java SDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 `java -version`
 ```
 java version "1.8.0_171"
@@ -10,6 +11,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.171-b11, mixed mode)
 ```
 
 * [Python](http://docs.python-guide.org/en/latest/starting/installation/)
+
 `python -version`
 ```
 Python 3.6.1
