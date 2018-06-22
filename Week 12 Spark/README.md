@@ -24,7 +24,7 @@ Python 3.6.1
 
 ![install spark](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/Install_Spark.JPG)
 
-Alternatively, Spark can be run on Colab by using the code in [Spark on Colab.ipynb](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2012%20Big%20Data%20Tools/Spark%20on%20Colab.ipynb).
+Alternatively, Spark can be run on Colab by using the code in [Spark on Colab.ipynb](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2012%2Spark/Spark%20on%20Colab.ipynb).
 
 ## Learning Objectives
 
