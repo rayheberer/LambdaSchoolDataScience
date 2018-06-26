@@ -6,7 +6,7 @@ My solutions to the assignments and coding challenges from the [Lambda School](h
 
 The majority of the work is done using IPython notebooks run in Google's [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) environment. No dependencies need to be installed on a local machine to save and work with these notebooks in Google Drive.
 
-The week 12 material requires an installation of the Java Development Kit (JDK) 8, Apache Spark 2.3.1, and the PySpark API to run on a local machine. There is also a method to run Spark on Colab.
+For assignments and coding challenges requiring installations on the local machine, instructions are provided with the specific week, or assignment.
 
 ## Organization
 
