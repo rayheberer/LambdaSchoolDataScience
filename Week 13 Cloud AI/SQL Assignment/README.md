@@ -100,3 +100,37 @@ column names in the following tables. We'll use `setup.sql` later.
   * Select the number of artists.
 
   * Select the number of tracks on `Super Dubstep Album`.
+
+## Create a database for taking notes.
+
+* What are the columns that a note table needs?
+
+* If you have a timestamp field, how do you auto-populate it with the date?
+
+* A note should have a foreign key pointing to an author in an author table.
+
+* What columns are needed for the author table?
+
+### Exercises
+
+Write queries that:
+
+* Insert authors to the author table.
+
+* Insert notes to the note table.
+
+* Select all notes by an author's name.
+
+* Select author for a particular note by note ID.
+
+* Select the names of all the authors along with the number of notes they each have. (Hint: `GROUP BY`.)
+
+* Delete authors from the author table.
+  > Note that SQLite doesn't enforce foreign key constrains by default. You have
+  > to enable them by running `PRAGMA foreign_keys = ON;` before your queries.
+  
+  * What happens when you try to delete an author with an existing note?
+  * How can you prevent this?
+
+Submit a file `notes.sql` with the queries that build (`CREATE TABLE`/`INSERT`)
+and query the database as noted above.
