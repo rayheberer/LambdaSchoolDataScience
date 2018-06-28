@@ -22,7 +22,7 @@ Python 3.6.1
 
 ### [Apache Spark](https://spark.apache.org/downloads.html)
 
-![install spark](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/Install_Spark.JPG)
+![install spark](https://raw.githubusercontent.com/rayheberer/LambdaSchoolDataScience/master/img/Week%2012/Install_Spark.JPG)
 
 Alternatively, Spark can be run on Colab by using the code in [Spark on Colab.ipynb](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2012%20Spark/Spark%20on%20Colab.ipynb).
 
