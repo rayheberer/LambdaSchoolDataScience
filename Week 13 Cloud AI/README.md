@@ -1,3 +1,0 @@
-# Cloud AI
-
-## Learning Objectives
