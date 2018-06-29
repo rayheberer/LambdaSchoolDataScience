@@ -1,0 +1,997 @@
+Gender,Age,Payment Method,Churn,LastTransaction
+male,64,credit card,loyal,98
+male,35,cheque,churn,118
+female,25,credit card,loyal,107
+female,39,credit card,,177
+male,39,credit card,loyal,90
+female,28,cheque,churn,189
+female,21,credit card,loyal,102
+male,48,credit card,loyal,141
+female,70,credit card,churn,153
+male,36,credit card,loyal,46
+male,22,credit card,loyal,51
+female,53,cash,,183
+male,27,cash,loyal,137
+male,22,cash,loyal,147
+female,49,credit card,churn,158
+female,24,cash,churn,162
+male,45,credit card,loyal,55
+male,45,credit card,loyal,160
+female,66,cash,churn,156
+female,82,cash,churn,177
+female,35,credit card,loyal,176
+female,17,credit card,loyal,133
+male,52,cash,loyal,193
+female,49,credit card,churn,183
+female,33,credit card,,194
+male,40,credit card,loyal,110
+female,53,credit card,churn,187
+female,64,credit card,churn,133
+female,42,credit card,churn,175
+male,66,cash,loyal,168
+female,84,cash,loyal,195
+male,34,cheque,loyal,96
+male,46,credit card,loyal,86
+female,71,credit card,,27
+male,68,cash,loyal,179
+female,18,cash,churn,173
+female,49,cash,churn,188
+female,23,credit card,loyal,118
+male,38,credit card,loyal,131
+female,65,cash,churn,187
+female,22,credit card,loyal,72
+male,21,credit card,loyal,89
+female,37,credit card,churn,162
+female,70,credit card,churn,153
+male,81,cash,,153
+female,47,credit card,churn,210
+male,55,cash,churn,126
+male,42,credit card,loyal,83
+male,38,credit card,loyal,114
+female,60,credit card,loyal,142
+male,68,credit card,loyal,112
+male,22,credit card,loyal,88
+male,63,cash,loyal,160
+male,60,cash,loyal,192
+male,25,credit card,churn,95
+male,84,credit card,loyal,163
+male,53,credit card,loyal,118
+female,47,cheque,churn,212
+female,54,cheque,,146
+male,52,credit card,loyal,132
+male,25,credit card,loyal,92
+male,52,credit card,loyal,78
+male,47,cash,loyal,163
+female,47,cash,loyal,142
+female,33,credit card,loyal,30
+male,74,credit card,loyal,195
+male,35,credit card,loyal,69
+female,35,credit card,loyal,153
+female,52,cash,loyal,203
+male,20,credit card,loyal,129
+male,50,credit card,loyal,117
+male,38,cheque,loyal,199
+male,66,credit card,loyal,87
+male,19,credit card,loyal,51
+male,42,credit card,loyal,115
+female,35,credit card,churn,174
+female,86,credit card,churn,159
+female,27,credit card,loyal,75
+male,34,credit card,churn,121
+female,64,credit card,churn,182
+male,63,credit card,,102
+female,58,credit card,,176
+male,63,credit card,loyal,92
+male,31,credit card,loyal,118
+female,36,credit card,churn,204
+female,58,cash,churn,222
+male,21,cash,churn,57
+female,27,credit card,loyal,107
+female,45,credit card,,150
+male,51,credit card,loyal,111
+male,42,credit card,loyal,113
+female,67,credit card,churn,27
+female,55,cash,loyal,170
+female,23,credit card,churn,123
+male,36,credit card,loyal,97
+female,89,cash,churn,63
+male,64,cash,loyal,156
+male,72,credit card,loyal,98
+female,33,credit card,,144
+female,50,credit card,churn,173
+male,71,cheque,loyal,157
+male,79,credit card,loyal,187
+female,51,cash,churn,185
+female,72,cash,churn,223
+female,61,cash,churn,117
+female,59,credit card,loyal,153
+male,49,credit card,loyal,148
+female,54,cheque,churn,136
+male,26,cash,loyal,112
+male,18,cash,loyal,81
+female,37,cash,loyal,178
+male,40,credit card,,82
+female,42,cash,churn,152
+male,69,credit card,loyal,82
+male,24,credit card,loyal,154
+female,62,cash,churn,121
+male,39,credit card,loyal,126
+female,37,credit card,loyal,139
+female,22,credit card,loyal,73
+male,38,cash,churn,187
+female,28,credit card,loyal,136
+male,53,credit card,loyal,138
+male,36,credit card,,91
+female,76,cheque,churn,167
+female,42,credit card,churn,165
+male,65,cash,loyal,60
+male,65,cash,churn,143
+male,24,credit card,loyal,78
+female,31,cash,churn,153
+female,46,cheque,churn,70
+male,68,credit card,loyal,37
+male,42,cash,loyal,160
+female,55,credit card,loyal,154
+female,54,cash,churn,130
+male,81,credit card,churn,178
+male,46,credit card,loyal,118
+female,63,credit card,loyal,140
+male,73,credit card,loyal,195
+male,17,credit card,loyal,130
+female,53,cash,churn,183
+female,17,credit card,loyal,51
+female,91,cheque,loyal,194
+male,35,credit card,loyal,87
+female,80,cash,churn,64
+female,35,credit card,churn,177
+female,67,credit card,loyal,117
+male,46,credit card,loyal,112
+female,50,credit card,churn,177
+female,50,cheque,churn,176
+female,72,credit card,,158
+female,25,cash,churn,148
+female,38,credit card,churn,158
+male,30,cash,loyal,117
+male,27,credit card,loyal,122
+female,32,cash,churn,134
+male,56,credit card,loyal,142
+male,29,credit card,loyal,118
+male,58,credit card,loyal,88
+female,37,credit card,churn,165
+male,49,cash,loyal,200
+male,19,credit card,loyal,96
+male,57,credit card,loyal,108
+female,27,credit card,churn,107
+female,78,cash,churn,215
+male,29,credit card,loyal,73
+male,59,cash,loyal,178
+male,62,credit card,loyal,106
+female,57,credit card,churn,157
+female,29,credit card,loyal,112
+female,28,credit card,loyal,139
+male,51,credit card,loyal,112
+male,45,credit card,churn,132
+female,85,cash,churn,194
+female,51,cash,churn,198
+male,34,credit card,loyal,98
+female,66,cash,,199
+male,30,credit card,loyal,128
+female,89,cash,churn,170
+female,33,credit card,churn,11
+female,17,cash,churn,214
+female,50,credit card,loyal,146
+male,42,cheque,churn,142
+male,34,credit card,loyal,100
+female,55,cash,loyal,160
+female,73,cash,churn,168
+male,59,credit card,loyal,146
+male,47,cash,loyal,208
+female,78,cash,churn,169
+female,69,credit card,churn,159
+male,38,cash,loyal,189
+female,17,credit card,churn,82
+male,22,credit card,loyal,102
+female,52,cheque,loyal,150
+female,30,credit card,churn,130
+male,36,cheque,loyal,193
+female,60,cash,churn,170
+female,23,cash,churn,176
+male,40,credit card,loyal,103
+female,27,credit card,loyal,73
+female,52,credit card,churn,207
+male,75,credit card,loyal,172
+male,40,credit card,loyal,74
+male,30,credit card,loyal,77
+male,42,cash,loyal,149
+female,43,cash,loyal,72
+male,61,cash,churn,140
+male,56,credit card,loyal,46
+female,51,credit card,churn,179
+male,37,credit card,loyal,109
+male,17,cheque,,138
+female,30,credit card,loyal,111
+female,35,cash,churn,120
+male,25,cash,churn,152
+male,26,credit card,loyal,107
+female,33,credit card,churn,191
+female,43,credit card,churn,184
+male,21,cash,loyal,103
+male,29,credit card,loyal,75
+male,34,cash,loyal,118
+female,33,credit card,churn,162
+male,17,credit card,loyal,103
+female,79,credit card,churn,141
+male,79,credit card,loyal,160
+male,52,credit card,loyal,115
+female,62,cheque,churn,136
+female,30,credit card,,137
+female,35,credit card,churn,141
+male,31,credit card,loyal,55
+female,47,cash,churn,163
+male,35,credit card,loyal,107
+male,61,credit card,loyal,94
+male,62,credit card,loyal,82
+female,55,credit card,loyal,155
+male,48,cheque,loyal,143
+male,89,cash,loyal,132
+female,33,credit card,churn,172
+female,50,credit card,loyal,194
+male,63,cheque,churn,196
+female,64,credit card,churn,61
+male,74,credit card,loyal,190
+male,33,credit card,loyal,111
+male,55,cheque,,128
+male,81,credit card,loyal,149
+female,81,credit card,loyal,143
+female,50,cash,churn,129
+male,53,cash,loyal,126
+male,56,cheque,loyal,179
+female,50,credit card,churn,151
+female,38,credit card,churn,140
+male,71,credit card,loyal,131
+female,18,credit card,loyal,60
+female,27,credit card,loyal,119
+female,27,cheque,churn,182
+female,86,credit card,churn,97
+male,82,cash,loyal,159
+male,24,cash,loyal,73
+male,29,credit card,loyal,126
+male,45,credit card,loyal,67
+male,35,credit card,loyal,131
+female,18,credit card,,117
+male,90,credit card,loyal,138
+male,51,credit card,loyal,106
+male,27,cash,,130
+female,24,credit card,loyal,115
+male,28,cash,loyal,94
+female,43,cheque,churn,167
+female,21,credit card,churn,106
+female,75,credit card,,207
+female,51,credit card,,142
+male,39,credit card,,122
+male,46,credit card,loyal,50
+female,34,credit card,churn,160
+male,40,credit card,loyal,87
+female,38,cash,churn,190
+male,45,credit card,loyal,77
+female,48,cash,churn,133
+male,55,credit card,churn,68
+female,17,cheque,churn,189
+male,68,credit card,,103
+male,28,credit card,loyal,94
+male,26,credit card,,89
+female,73,cash,churn,184
+female,54,cheque,churn,157
+male,70,credit card,loyal,98
+female,58,cash,churn,108
+male,40,credit card,loyal,138
+female,63,credit card,loyal,169
+female,75,cash,loyal,192
+female,39,credit card,churn,177
+male,31,cash,loyal,99
+male,90,credit card,loyal,156
+male,28,credit card,loyal,43
+male,43,credit card,loyal,44
+male,34,credit card,,66
+male,56,credit card,loyal,110
+male,40,credit card,loyal,102
+female,39,credit card,churn,118
+female,40,cash,churn,134
+female,39,credit card,,173
+female,36,credit card,loyal,173
+female,34,credit card,churn,182
+female,86,credit card,loyal,159
+male,52,cash,loyal,138
+male,20,credit card,loyal,116
+male,46,credit card,loyal,88
+male,42,cash,loyal,152
+male,54,credit card,loyal,80
+male,46,credit card,loyal,86
+female,76,credit card,churn,134
+female,20,credit card,loyal,76
+male,51,credit card,loyal,94
+male,54,cash,loyal,134
+female,65,cheque,churn,139
+female,55,credit card,loyal,172
+male,17,cash,loyal,73
+female,18,credit card,churn,130
+female,21,credit card,loyal,78
+female,64,cash,churn,142
+male,71,credit card,loyal,80
+male,43,cash,loyal,168
+female,18,cheque,churn,175
+female,39,credit card,churn,157
+male,26,cash,loyal,20
+female,17,credit card,loyal,85
+female,77,credit card,churn,145
+female,45,credit card,churn,116
+male,90,credit card,loyal,31
+male,55,cash,loyal,163
+female,37,credit card,loyal,134
+female,30,credit card,loyal,89
+male,41,credit card,loyal,117
+male,46,cash,churn,192
+male,48,credit card,loyal,114
+male,34,credit card,loyal,110
+male,52,cash,loyal,170
+female,18,credit card,loyal,70
+female,46,credit card,churn,72
+male,53,credit card,,85
+male,64,credit card,loyal,28
+female,30,credit card,,76
+female,52,credit card,,161
+female,75,cash,churn,199
+male,65,credit card,loyal,111
+male,34,credit card,churn,129
+male,27,credit card,churn,142
+male,42,credit card,loyal,69
+male,33,credit card,loyal,121
+male,24,credit card,,73
+female,49,credit card,churn,165
+female,76,credit card,churn,160
+male,41,credit card,loyal,109
+male,71,credit card,,92
+male,43,credit card,loyal,86
+female,44,cash,churn,118
+female,20,credit card,loyal,43
+male,18,credit card,loyal,96
+male,53,cash,churn,90
+male,46,credit card,loyal,92
+female,82,credit card,churn,161
+female,23,credit card,loyal,73
+male,19,cheque,loyal,108
+male,68,cash,churn,142
+male,42,credit card,loyal,96
+male,39,credit card,loyal,83
+male,73,cheque,loyal,85
+male,50,credit card,loyal,101
+male,22,cash,loyal,91
+male,20,credit card,loyal,109
+male,47,cheque,loyal,167
+female,40,credit card,churn,161
+male,23,credit card,loyal,115
+female,21,credit card,loyal,56
+male,64,credit card,loyal,69
+male,39,cash,loyal,180
+male,80,credit card,loyal,102
+female,38,cash,,163
+female,47,credit card,churn,180
+male,85,cash,churn,166
+male,26,cheque,,108
+female,69,credit card,churn,113
+male,18,credit card,loyal,58
+male,18,credit card,loyal,95
+female,40,credit card,churn,133
+male,90,credit card,loyal,133
+female,22,cash,churn,135
+female,36,cash,churn,107
+male,57,credit card,,96
+female,51,credit card,churn,153
+male,63,cash,churn,152
+male,22,cash,loyal,50
+female,33,cash,churn,190
+male,24,credit card,loyal,108
+male,44,cash,loyal,193
+male,55,credit card,loyal,98
+male,60,credit card,loyal,126
+female,21,credit card,loyal,83
+female,56,credit card,churn,176
+male,51,credit card,,70
+female,33,cash,loyal,142
+male,56,cash,churn,164
+male,61,credit card,loyal,108
+male,91,credit card,loyal,158
+female,44,credit card,churn,129
+female,54,credit card,churn,59
+male,55,cash,loyal,121
+male,20,cash,loyal,160
+male,41,credit card,loyal,80
+male,30,credit card,loyal,70
+male,22,cheque,loyal,140
+female,17,credit card,churn,115
+male,66,credit card,loyal,106
+female,74,credit card,churn,175
+female,49,credit card,churn,166
+male,43,cash,loyal,122
+male,75,cash,loyal,195
+male,52,cash,loyal,139
+male,76,credit card,loyal,165
+female,80,credit card,loyal,48
+male,41,cash,loyal,159
+male,65,cash,loyal,155
+female,51,credit card,churn,38
+female,28,credit card,loyal,63
+male,76,credit card,loyal,127
+male,58,credit card,loyal,68
+male,53,credit card,,94
+female,28,credit card,loyal,61
+female,19,credit card,loyal,85
+male,36,credit card,loyal,107
+male,69,cash,churn,169
+male,31,credit card,loyal,86
+male,78,credit card,loyal,128
+male,46,credit card,,95
+male,26,credit card,loyal,104
+female,50,cash,,141
+female,21,credit card,loyal,61
+male,56,credit card,loyal,43
+male,76,credit card,loyal,162
+female,39,cash,churn,139
+male,34,credit card,,64
+female,48,credit card,churn,67
+male,67,credit card,loyal,85
+female,43,credit card,loyal,140
+male,24,credit card,,56
+male,58,cash,loyal,136
+female,34,credit card,,167
+female,67,credit card,churn,47
+male,18,credit card,,64
+male,61,credit card,loyal,55
+male,49,credit card,loyal,67
+male,54,credit card,loyal,21
+male,37,credit card,loyal,91
+male,43,cash,loyal,140
+male,52,cheque,churn,166
+female,51,credit card,churn,177
+female,62,credit card,churn,82
+male,51,cash,loyal,127
+female,66,credit card,churn,169
+female,54,credit card,churn,178
+male,70,cash,churn,129
+female,44,credit card,churn,162
+female,70,credit card,,162
+male,48,credit card,,87
+female,59,credit card,churn,49
+male,54,credit card,loyal,59
+female,18,credit card,churn,3
+female,19,credit card,loyal,70
+female,19,credit card,loyal,68
+male,36,credit card,loyal,69
+male,27,cheque,loyal,93
+female,18,credit card,loyal,95
+male,58,cash,loyal,43
+female,18,credit card,,99
+female,36,credit card,churn,13
+male,47,credit card,loyal,69
+male,52,credit card,loyal,77
+male,56,cash,,150
+male,35,credit card,loyal,44
+female,29,credit card,loyal,83
+male,32,credit card,loyal,94
+male,72,cash,loyal,127
+male,71,credit card,loyal,122
+male,49,credit card,loyal,77
+male,77,credit card,loyal,180
+male,21,cash,loyal,119
+female,29,cash,churn,109
+female,47,credit card,,210
+female,19,credit card,loyal,65
+female,63,cheque,churn,192
+male,24,credit card,loyal,100
+female,66,credit card,churn,125
+male,23,credit card,loyal,103
+female,45,credit card,churn,87
+male,30,credit card,loyal,110
+female,72,cash,churn,156
+male,79,cash,churn,96
+male,46,credit card,loyal,92
+female,69,cash,loyal,116
+female,55,cheque,churn,146
+female,27,credit card,loyal,37
+female,25,cash,loyal,170
+female,38,credit card,churn,119
+female,39,credit card,churn,109
+male,76,credit card,loyal,155
+male,34,cash,loyal,103
+female,52,cash,,194
+female,57,credit card,churn,117
+female,23,credit card,loyal,76
+female,71,credit card,,148
+male,58,credit card,loyal,50
+female,17,credit card,churn,59
+female,47,cash,churn,131
+male,41,cash,churn,130
+male,59,credit card,loyal,29
+male,19,credit card,loyal,141
+female,18,credit card,,90
+male,53,credit card,loyal,59
+male,44,credit card,loyal,91
+male,33,credit card,loyal,52
+male,28,cash,loyal,99
+male,78,credit card,churn,157
+female,30,cash,churn,128
+male,51,credit card,loyal,103
+female,39,credit card,,128
+female,80,credit card,churn,179
+male,40,credit card,loyal,108
+female,53,cash,churn,170
+male,28,credit card,loyal,78
+female,87,credit card,churn,144
+female,36,credit card,churn,187
+female,20,credit card,loyal,96
+male,37,cash,churn,122
+male,55,cheque,churn,134
+male,72,cash,loyal,127
+female,55,credit card,,114
+male,36,cash,loyal,114
+male,34,credit card,loyal,106
+male,41,credit card,loyal,96
+female,17,credit card,loyal,83
+male,30,credit card,loyal,95
+male,17,credit card,loyal,106
+female,83,credit card,churn,132
+female,46,cheque,,105
+female,59,credit card,,169
+male,18,cash,loyal,88
+male,28,credit card,loyal,43
+male,26,cash,loyal,87
+female,33,credit card,churn,172
+male,21,credit card,loyal,105
+female,55,cash,churn,126
+male,68,cash,loyal,163
+female,29,credit card,loyal,70
+male,32,credit card,loyal,131
+male,57,cash,churn,136
+female,63,credit card,churn,104
+female,47,cash,churn,165
+female,31,credit card,churn,132
+female,27,cash,churn,54
+female,18,cash,churn,73
+female,51,credit card,churn,137
+male,17,credit card,loyal,57
+male,48,credit card,loyal,122
+male,25,credit card,loyal,83
+female,42,cash,churn,133
+female,42,credit card,churn,139
+male,49,credit card,,27
+male,47,cash,loyal,90
+female,45,cash,churn,130
+female,49,credit card,loyal,161
+male,34,credit card,loyal,78
+female,39,credit card,churn,17
+female,29,credit card,churn,87
+female,32,cash,loyal,171
+male,25,cash,loyal,88
+male,21,credit card,loyal,45
+female,57,cash,churn,168
+female,64,credit card,churn,127
+female,51,cash,churn,117
+male,24,credit card,loyal,55
+male,60,credit card,loyal,96
+male,35,credit card,loyal,77
+male,54,credit card,loyal,100
+female,55,cash,churn,141
+male,40,cash,loyal,41
+male,43,cash,,67
+male,91,credit card,loyal,109
+female,40,cash,loyal,108
+male,51,cash,loyal,133
+female,46,credit card,churn,110
+female,76,cash,,34
+male,54,cash,churn,159
+female,17,credit card,loyal,87
+female,21,cheque,churn,124
+female,18,credit card,loyal,111
+female,20,credit card,loyal,83
+male,27,cash,loyal,111
+male,28,credit card,loyal,129
+female,44,credit card,churn,156
+male,21,credit card,loyal,42
+male,32,cash,churn,36
+female,37,cash,churn,128
+male,18,cash,loyal,143
+female,89,credit card,churn,138
+male,41,credit card,loyal,85
+male,72,cash,loyal,115
+female,29,cheque,churn,118
+male,46,credit card,loyal,69
+female,61,cash,churn,144
+male,20,credit card,,50
+male,45,credit card,loyal,96
+female,62,credit card,,157
+male,51,credit card,loyal,45
+female,74,credit card,loyal,68
+male,48,credit card,churn,33
+male,28,cash,loyal,42
+female,46,credit card,churn,65
+female,32,credit card,churn,127
+female,53,cash,churn,154
+male,57,credit card,loyal,123
+male,22,cash,loyal,98
+male,49,credit card,loyal,116
+male,63,credit card,loyal,116
+male,90,credit card,loyal,15
+male,57,cheque,loyal,166
+female,28,credit card,loyal,85
+female,17,cash,loyal,149
+male,50,cash,loyal,154
+male,51,credit card,loyal,90
+female,74,credit card,churn,33
+female,73,credit card,churn,139
+male,52,cash,loyal,147
+female,52,credit card,churn,135
+male,19,credit card,loyal,1
+male,54,cash,loyal,142
+male,26,credit card,loyal,72
+female,25,cheque,loyal,164
+male,42,credit card,loyal,114
+female,78,cash,,178
+male,34,credit card,loyal,80
+female,19,credit card,churn,46
+female,27,cash,churn,46
+male,81,credit card,loyal,78
+female,32,cheque,churn,151
+male,70,cash,loyal,93
+female,23,credit card,churn,78
+female,17,credit card,loyal,36
+male,19,cash,loyal,71
+female,42,credit card,,155
+female,27,credit card,loyal,92
+female,57,credit card,churn,148
+male,57,credit card,loyal,117
+male,67,cash,loyal,145
+female,63,cheque,churn,86
+female,40,credit card,churn,147
+male,21,cash,,102
+female,58,credit card,churn,152
+male,23,cash,loyal,67
+male,76,credit card,churn,133
+female,73,cash,loyal,141
+female,40,cash,churn,90
+male,33,credit card,loyal,108
+male,54,credit card,loyal,76
+female,17,credit card,loyal,25
+male,51,cash,loyal,157
+female,48,credit card,loyal,159
+male,43,credit card,loyal,80
+male,36,credit card,churn,101
+female,22,credit card,loyal,38
+male,62,credit card,loyal,85
+male,43,credit card,loyal,117
+female,42,credit card,loyal,55
+male,22,cash,loyal,16
+male,64,credit card,churn,76
+male,34,cheque,loyal,115
+female,42,credit card,churn,131
+female,19,cash,churn,167
+male,36,credit card,loyal,74
+male,39,credit card,loyal,39
+male,83,credit card,loyal,127
+female,28,credit card,loyal,93
+male,68,cash,loyal,129
+male,48,credit card,loyal,71
+female,60,credit card,churn,114
+male,76,credit card,churn,105
+female,50,cheque,churn,139
+female,21,credit card,loyal,96
+female,46,credit card,loyal,176
+female,35,credit card,loyal,28
+male,27,cheque,loyal,82
+male,39,credit card,loyal,76
+male,61,credit card,loyal,71
+female,20,credit card,loyal,118
+female,22,credit card,loyal,35
+female,53,credit card,churn,141
+male,20,cash,loyal,26
+male,34,credit card,,78
+male,52,credit card,loyal,85
+male,36,credit card,loyal,93
+female,52,credit card,churn,139
+male,28,credit card,loyal,57
+male,40,credit card,,67
+male,32,credit card,loyal,86
+female,18,credit card,loyal,64
+female,22,cheque,churn,94
+male,81,credit card,loyal,132
+female,52,cash,churn,98
+female,76,credit card,churn,162
+male,43,credit card,loyal,73
+male,23,credit card,loyal,99
+male,34,credit card,loyal,151
+female,38,credit card,loyal,117
+female,33,credit card,churn,118
+male,48,cash,loyal,97
+male,41,cash,loyal,119
+male,78,credit card,loyal,131
+female,51,credit card,loyal,102
+male,42,credit card,loyal,73
+male,72,cash,loyal,160
+female,20,cash,loyal,123
+male,69,cash,loyal,153
+male,37,cash,loyal,150
+female,45,credit card,churn,154
+female,77,credit card,churn,164
+male,79,credit card,loyal,149
+male,56,credit card,,100
+male,44,credit card,loyal,73
+male,30,cash,loyal,76
+female,50,cash,loyal,122
+male,57,cash,churn,172
+male,42,credit card,churn,52
+female,64,cash,churn,146
+female,50,cash,churn,74
+male,28,cash,loyal,71
+male,50,cash,loyal,37
+female,41,credit card,churn,93
+female,64,credit card,churn,160
+female,81,credit card,churn,91
+female,48,cash,churn,114
+male,84,credit card,loyal,122
+male,29,credit card,loyal,103
+male,26,cash,,41
+female,42,credit card,churn,109
+female,40,credit card,churn,174
+male,79,credit card,loyal,129
+male,70,credit card,,114
+male,51,cheque,,183
+female,24,cheque,churn,158
+female,17,credit card,loyal,121
+male,17,credit card,,98
+male,18,credit card,loyal,74
+male,45,credit card,loyal,61
+male,51,cash,loyal,120
+male,17,credit card,loyal,101
+female,74,credit card,churn,143
+female,35,credit card,churn,155
+male,19,cash,,65
+male,24,credit card,loyal,67
+male,58,credit card,loyal,66
+female,45,credit card,churn,125
+female,43,credit card,,165
+female,76,cash,churn,133
+female,58,cash,loyal,75
+male,33,cheque,loyal,50
+male,81,cash,loyal,204
+female,20,credit card,loyal,79
+male,52,cash,loyal,140
+male,22,cash,loyal,100
+female,18,credit card,loyal,84
+male,65,cash,,79
+female,17,credit card,loyal,54
+female,29,credit card,loyal,69
+female,72,credit card,churn,151
+male,39,cash,loyal,106
+male,33,cheque,loyal,13
+male,52,credit card,loyal,124
+male,62,credit card,loyal,67
+male,17,credit card,loyal,65
+female,30,credit card,loyal,93
+female,30,credit card,loyal,122
+female,59,cash,churn,119
+female,40,cash,churn,43
+male,26,credit card,,74
+female,51,credit card,churn,36
+male,59,credit card,,92
+male,30,credit card,loyal,73
+male,54,cash,loyal,128
+male,39,credit card,loyal,38
+male,37,credit card,,63
+female,37,cheque,churn,120
+female,43,cash,loyal,140
+male,42,cash,churn,175
+male,36,credit card,loyal,88
+male,43,cash,loyal,144
+female,30,credit card,loyal,60
+female,38,credit card,churn,138
+female,67,credit card,churn,85
+male,18,credit card,loyal,78
+male,71,cash,churn,157
+male,45,cheque,loyal,106
+female,59,credit card,churn,168
+female,39,credit card,churn,23
+male,41,credit card,,84
+male,70,cash,loyal,123
+male,31,cash,loyal,61
+male,91,credit card,loyal,133
+male,59,credit card,loyal,57
+male,47,credit card,loyal,85
+female,56,credit card,churn,162
+male,44,cash,loyal,119
+male,78,credit card,churn,137
+female,35,credit card,churn,156
+male,27,credit card,loyal,28
+male,57,cash,loyal,143
+male,21,credit card,,88
+male,53,credit card,loyal,52
+female,90,credit card,loyal,109
+male,32,credit card,churn,23
+female,41,cash,churn,103
+female,47,credit card,churn,117
+male,90,credit card,loyal,123
+male,72,cash,loyal,127
+male,42,cash,loyal,150
+male,59,cheque,loyal,146
+female,29,cash,loyal,62
+male,39,credit card,loyal,68
+female,41,cheque,loyal,100
+female,28,cash,churn,151
+female,72,credit card,churn,19
+female,45,cheque,loyal,105
+female,26,credit card,loyal,29
+female,29,credit card,loyal,30
+female,28,credit card,loyal,82
+male,21,credit card,,108
+male,40,credit card,loyal,47
+male,85,credit card,loyal,112
+female,50,credit card,loyal,53
+male,21,credit card,loyal,74
+female,60,credit card,,166
+female,76,cash,loyal,62
+female,84,credit card,churn,114
+female,49,credit card,churn,107
+female,39,cash,churn,126
+male,17,credit card,loyal,70
+female,54,credit card,churn,183
+male,64,cash,loyal,43
+male,32,cash,loyal,66
+male,35,cash,loyal,55
+male,34,cash,loyal,56
+female,33,credit card,churn,112
+male,22,credit card,loyal,69
+female,73,cheque,churn,100
+male,39,credit card,loyal,108
+female,47,cash,churn,90
+female,26,credit card,loyal,21
+male,67,cash,loyal,113
+male,52,credit card,loyal,34
+female,23,credit card,loyal,54
+female,61,cash,churn,84
+female,55,credit card,loyal,47
+male,71,cheque,,86
+female,42,credit card,loyal,138
+male,42,credit card,loyal,46
+female,69,cash,churn,108
+male,34,cash,loyal,66
+female,20,credit card,loyal,68
+male,86,credit card,churn,137
+male,44,cheque,loyal,64
+female,83,cash,churn,105
+male,25,credit card,loyal,67
+male,45,cash,loyal,162
+male,19,credit card,loyal,72
+male,45,credit card,loyal,65
+female,43,credit card,,153
+male,31,credit card,loyal,42
+male,20,credit card,loyal,78
+male,56,credit card,loyal,64
+female,61,credit card,churn,147
+male,20,credit card,loyal,108
+female,25,credit card,loyal,76
+male,45,cash,loyal,63
+female,38,credit card,churn,89
+male,37,cheque,churn,111
+male,44,credit card,,83
+male,51,credit card,loyal,75
+male,27,credit card,loyal,70
+female,42,cash,churn,119
+male,37,credit card,,92
+male,20,cash,loyal,68
+female,55,credit card,,156
+male,64,credit card,,68
+male,56,credit card,loyal,119
+female,66,cash,,115
+female,69,credit card,churn,97
+male,89,cash,churn,77
+male,41,credit card,loyal,65
+male,48,credit card,loyal,87
+male,38,credit card,loyal,83
+male,38,cash,churn,121
+male,67,cash,churn,157
+male,87,cheque,loyal,138
+male,29,cash,loyal,45
+female,51,credit card,churn,113
+male,31,credit card,loyal,67
+female,34,credit card,churn,133
+male,32,credit card,loyal,85
+female,26,cheque,loyal,177
+male,65,credit card,loyal,55
+male,43,credit card,loyal,78
+female,45,credit card,churn,101
+female,57,cash,loyal,68
+male,34,credit card,churn,35
+female,18,credit card,churn,34
+female,70,cash,loyal,104
+female,75,credit card,,89
+female,46,credit card,loyal,87
+male,24,credit card,loyal,80
+male,52,credit card,loyal,104
+female,48,cash,loyal,150
+female,27,cash,churn,148
+male,26,credit card,loyal,42
+male,57,cash,,168
+female,66,credit card,churn,75
+male,49,credit card,loyal,77
+female,55,credit card,loyal,111
+female,24,cash,churn,110
+female,63,cash,loyal,89
+female,52,credit card,churn,107
+male,25,cash,loyal,86
+female,30,credit card,loyal,100
+male,63,cheque,loyal,75
+female,76,credit card,churn,111
+female,69,cheque,churn,93
+female,43,cash,churn,123
+male,42,credit card,loyal,49
+male,51,credit card,loyal,54
+male,44,credit card,loyal,79
+male,51,credit card,loyal,38
+male,30,credit card,loyal,23
+male,48,cheque,,40
+female,28,credit card,churn,7
+male,50,credit card,loyal,87
+male,25,credit card,loyal,103
+male,56,cash,churn,49
+female,17,credit card,churn,106
+female,59,credit card,churn,108
+female,70,cash,churn,114
+male,45,cash,churn,129
+male,43,cash,loyal,83
+male,50,credit card,loyal,34
+male,46,cash,loyal,119
+female,25,credit card,,104
+male,43,credit card,,77
+male,29,cash,loyal,109
+male,49,credit card,loyal,57
+female,43,cash,churn,102
+male,35,cash,churn,70
+male,19,credit card,loyal,19
+male,76,cash,churn,128
+female,53,credit card,loyal,99
+female,64,credit card,churn,91
+female,42,credit card,churn,141
+male,53,credit card,loyal,35
+female,66,credit card,churn,95
+female,73,cash,churn,71
+male,31,credit card,loyal,45
+male,68,credit card,loyal,94
+female,38,credit card,churn,130
+female,39,credit card,churn,75
+male,23,cash,loyal,74
+female,52,cash,churn,97
+male,38,credit card,loyal,6
+male,81,cash,loyal,148
+male,20,cash,loyal,108
+female,20,credit card,churn,51
+male,40,credit card,,24
+male,29,cash,,71
+male,90,cash,,118
+female,42,credit card,churn,91
+male,80,cheque,loyal,109
+male,43,credit card,loyal,49
+male,23,credit card,loyal,59
+female,29,credit card,loyal,57
+female,44,credit card,churn,89
+male,37,cash,loyal,45
+male,26,credit card,loyal,58
+male,21,credit card,loyal,66
+female,80,cheque,churn,56
+male,50,cash,loyal,105
+female,28,credit card,loyal,23
+male,82,cash,loyal,24
+male,64,credit card,,43
+male,19,credit card,loyal,92
+female,29,credit card,loyal,33
+male,84,credit card,loyal,124
+male,20,credit card,,60
+male,19,credit card,loyal,49
+female,24,credit card,loyal,25
