@@ -18,6 +18,8 @@ Each sprint is capped off with a comprehensive challenge that covers the breadth
 
 GitHub's rendering of notebooks does not include animations rendered in the notebook outputs as JavaScript widgets. To view these, and certain other interactive elements, use `nbviewer`.
 
+http://nbviewer.jupyter.org/
+
 ![](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/nbviewer.png) 
 
 ---
@@ -78,3 +80,5 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 * SQL
 * Flask
 * Microsoft Azure ML Studio
+
+### Reinforcement Learning
