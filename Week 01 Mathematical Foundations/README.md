@@ -2,8 +2,8 @@
 
 ## Notebook Rendering
 The following notebooks contain JavaScript animation widgets that can be viewed when using `nbviewer`:
-* Operationalizing Finite Differences
-* Linear Algebra with Homogeneous Coordinates
+* [Operationalizing Finite Differences](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2001%20Mathematical%20Foundations/Operationalizing%20Finite%20Differences.ipynb)
+* [Linear Algebra with Homogeneous Coordinates](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2001%20Mathematical%20Foundations/Linear%20Algebra%20with%20Homogeneous%20Coordinates.ipynb)
 
 ## Learning Objectives
 

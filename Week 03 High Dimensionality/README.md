@@ -2,7 +2,7 @@
 
 ## Notebook Rendering
 The following notebooks contain plotly interactive plots that can be viewed when using `nbviewer`:
-* Principal Components Analysis
+* [Principal Components Analysis](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2003%20High%20Dimensionality/Principal%20Components%20Analysis.ipynb)
 
 ## Learning Objectives
 

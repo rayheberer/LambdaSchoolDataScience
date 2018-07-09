@@ -7,7 +7,8 @@
 * Windows instructions: https://docs.docker.com/docker-for-windows/install/
 
 ## Notebook Rendering
-The following notebooks contain JavaScript animation widgets that can be viewed when using `nbviewer`:
+The following notebooks contain animations for which the code must be re-run to display:
 * [16_reinforcement_learning](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2014%20Reinforcement%20Learning/Code%20Challenges/Day%201%20Docker/handson-ml/16_reinforcement_learning.ipynb)
+* [Cart-Pole](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/Week%2014%20Reinforcement%20Learning/Reinforcement%20Learning/Cart-Pole.ipynb)
 
 ## Learning Objectives
