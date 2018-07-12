@@ -4,9 +4,9 @@ My solutions to the assignments and coding challenges from the [Lambda School](h
 
 ## Environment
 
-The majority of the work is done using IPython notebooks run in Google's [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) environment. No dependencies need to be installed on a local machine to save and work with these notebooks in Google Drive.
+The majority of the work from the first half of the curriculum is done within IPython notebooks run in Google's [Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb) environment. No dependencies need to be installed on a local machine to save and work with these notebooks in Google Drive.
 
-For assignments and coding challenges requiring installations on the local machine, instructions are provided with the specific week, or assignment.
+For assignments and coding challenges requiring installations on the local machine, instructions are provided with the specific week, or assignment. Generally, most programming is done in [Python 3](http://docs.python-guide.org/en/latest/starting/installation/). I used [Anaconda](https://anaconda.org/) to create virtual environments for each new assignment in order to keep my root installation clean.
 
 ## Organization
 
