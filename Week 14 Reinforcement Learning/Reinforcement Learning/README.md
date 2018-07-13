@@ -1,7 +1,5 @@
 # Reinforcement Learning - Assignment
 
-*Work in progress - please check back for updates.*
-
 ## Part 1 - Improve Cart-Pole
 
 If you've not already, complete through goal 2 of [Coding Challenge 1](../cc1/).
