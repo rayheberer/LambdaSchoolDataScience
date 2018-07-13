@@ -12,7 +12,7 @@ For assignments and coding challenges requiring installations on the local machi
 
 Lambda School's instruction is divided into 5-day sprints. Each sprint has an overall topic, and will contain one or more "modules" - more specific subtopics. For the first four days, there are short code challenges meant to introduce the material, as well as more in-depth assignments. Occasionally, some days will have no code challenge in favor of some other assignment or reading.
 
-Each sprint is capped off with a comprehensive challenge that covers the breadth of the material, but not in as much depth as the weekly assignments. The material of the Sprint Challenge corresponds directly to the "learning objectives" of each module. I have collected the weekly Sprint Challenges into their own subdirectory. The code challenges and assignments for a particular week can be found in the directory for that week.
+Each sprint is capped off with a comprehensive challenge that covers the breadth of the material, but not in as much depth as the weekly assignments. The material of the Sprint Challenge corresponds directly to the "learning objectives" of each module. The code challenges and assignments for a particular week can be found in the directory for that week.
 
 ### Animations and Interactivity
 
@@ -82,3 +82,6 @@ http://nbviewer.jupyter.org/
 * Microsoft Azure ML Studio
 
 ### Reinforcement Learning
+* Docker
+* Reinforcement Learning with OpenAI Gym
+* Object Detection
