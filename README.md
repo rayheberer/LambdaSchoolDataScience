@@ -86,4 +86,6 @@ http://nbviewer.jupyter.org/
 * Reinforcement Learning with OpenAI Gym
 * Object Detection
 
-### Data Structures
+### Data Structures and Algorithms
+* Data Structures
+* Algorithms Overview
