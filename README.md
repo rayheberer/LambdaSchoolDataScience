@@ -1,6 +1,6 @@
 # Lambda School Data Science with Machine Learning
 
-My solutions to the assignments and coding challenges from the [Lambda School](https://lambdaschool.com/) Data Science Major.
+Completed assignments and coding challenges from the [Lambda School](https://lambdaschool.com/) Data Science Major.
 
 ## Environment
 
