@@ -23,6 +23,8 @@ int highestProductOf3(int arr[], int length)
   // in any array, it will either be the 3 largest
   // or the largest, and the 2 smallest
   // so we can just check both cases
+
+  assert (length >= 3)
   
   int top1 = 0;
   int top2 = 0;
@@ -47,7 +49,7 @@ int highestProductOf3(int arr[], int length)
           bottom2 = arr[i];
       }
   }
-  
+
   return MAX(top1*top2*top3, top1*bottom1*bottom2);
 }
 
