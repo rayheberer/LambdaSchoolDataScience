@@ -95,4 +95,6 @@ http://nbviewer.jupyter.org/
 * Connected Components
 * Search
 
-### Introduction to C
+### Intro to C and Operating Systems
+* Introduction to C
+* Operating Systems
