@@ -20,10 +20,6 @@ GitHub's rendering of notebooks does not include animations rendered in the note
 
 http://nbviewer.jupyter.org/
 
-![](https://github.com/rayheberer/LambdaSchoolDataScience/blob/master/img/nbviewer.png) 
-
----
-
 ## Syllabus
 
 ### Mathematical Foundations
