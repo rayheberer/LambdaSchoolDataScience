@@ -1,6 +1,6 @@
 # Lambda School Data Science with Machine Learning
 
-Completed assignments and coding challenges from the [Lambda School](https://lambdaschool.com/) Data Science program.
+Completed assignments and coding challenges from the [Lambda School](https://lambdaschool.com/) [Data Science program](https://lambdaschool.com/courses/ds/machine-learning/).
 
 ## Environment
 
