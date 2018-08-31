@@ -1,3 +1,0 @@
-# Advanced Topics
-
-## Learning Objectives

@@ -94,5 +94,3 @@ http://nbviewer.jupyter.org/
 ### Intro to C and Operating Systems
 * Introduction to C
 * Operating Systems
-
-### Advanced Topics
