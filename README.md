@@ -8,6 +8,15 @@ The majority of the work from the first half of the curriculum is done within IP
 
 For assignments and coding challenges requiring installations on the local machine, instructions are provided with the specific week, or assignment. Generally, most programming is done in [Python 3](http://docs.python-guide.org/en/latest/starting/installation/). I used [Anaconda](https://anaconda.org/) to create virtual environments for each new assignment in order to keep my root installation clean.
 
+## Articles Published while at Lambda School
+
+* [The Feature Scaling Terminology Zoo](https://medium.com/@rayheberer/the-feature-scaling-terminology-zoo-standardization-vs-normalization-21411ddfa9f2?source=friends_link&sk=b5bc677318f0c9530695012c30491711)
+* [Revisiting the Mathematical Foundations of Data Science](https://medium.com/@rayheberer/simple-equations-worth-thinking-about-again-1ad6e6a9c026?source=friends_link&sk=648442d465b4b4286e3b1747a4c330af)
+* [Black Magic and Hyperparameter Tuning](https://medium.com/@rayheberer/black-magic-and-hyperparameter-tuning-ef875eb31712?source=friends_link&sk=3fe3184b96fab0968d8c9cc7326e79f7)
+* [Generating Matplotlib Subplots Programmatically](https://medium.com/@rayheberer/generating-matplotlib-subplots-programmatically-cc234629b648?source=friends_link&sk=3a3beecd84b7d2ee5324532036a3f50e)
+* [Lessons and Mistakes from my First Reinforcement Learning StarCraft Agent](https://blog.goodaudience.com/lessons-and-mistakes-from-my-first-reinforcement-learning-starcraft-agent-4245cc35e956?source=friends_link&sk=40ac0cc9fb0fac2cb0c128f792bf31ed)
+* [Implementing a DeepMind Baseline StarCraft Reinforcement Learning Agent](https://towardsdatascience.com/implementing-a-deepmind-baseline-starcraft-reinforcement-learning-agent-7b1ef6f41b52?source=friends_link&sk=477345bddf3cc18b51b1e8e0220f30fa)
+
 ## Organization
 
 Lambda School's instruction is divided into 5-day sprints. Each sprint has an overall topic, and will contain one or more "modules" - more specific subtopics. For the first four days, there are short code challenges meant to introduce the material, as well as more in-depth assignments. Occasionally, some days will have no code challenge in favor of some other assignment or reading.
